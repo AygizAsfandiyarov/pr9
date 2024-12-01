@@ -16,7 +16,7 @@ if a > b:
 
 
 # Создание списка квадратов целых чисел между a и b
-squares = [i**2 for i in range(int(a) + 1, (round(b)))]
+squares = [i**2 for i in range(a + 1, b)]
 
 # Вывод полученного списка
 print("Список квадратов чисел между a и b:", squares)
